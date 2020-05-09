@@ -21,3 +21,9 @@ git commit -m "change log"
 git remote add https://github.com/snzy/snzy.github.io.git
 git push origin master
 ```
+
+## 記事を更新したら
+
+```
+bundle exec jekyll serve --trace
+```
